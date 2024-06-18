@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DC7C23;
+  }
+  
+  .inicio-container {
+    background-color: #DC7C23; /* Cor de fundo */
+    display: flex;
+    margin-top: 30px;
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column;
+    min-height: 75vh; /* Ocupa toda a altura da tela */
+    position: relative; /* Para posicionar o botão "Sair" */
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* Cor de fundo temporária */
+    border-radius: 50%;
+    margin-bottom: 10px; /* Espaço entre a foto e o nome do usuário */
+  }
+  
+  .profile-section h2 {
+    text-align: center;
+    color: #fff; /* Cor do texto */
+  }
+  
+  .menu-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .menu-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-column ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    width: 100%; /* Define largura total */
+    text-align: center; /* Centraliza texto horizontalmente */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .menu-column ul li a:hover {
+    background-color: #0c0067; /* Azul escuro ao passar o mouse */
+  }
+
+  .logout-section {
+    position: absolute; /* Para posicionar no canto inferior direito */
+    bottom: 20px; /* Espaço do fundo da tela */
+    right: 20px; /* Espaço da borda direita da tela */
+  }
+  
+  .logout-link {
+    color: #000; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 1px solid #000; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #fff; /* Cor de fundo */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+  }
+  
+  .logout-link:hover {
+    background-color: #000; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold; /* Adicionando negrito */
+    color: #fff; /* Alterando a cor para branco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adicionando sombra de texto */
+  }
+  

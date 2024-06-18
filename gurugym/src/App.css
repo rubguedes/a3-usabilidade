@@ -1,0 +1,66 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  padding: 25px 120px 20px 20px; /* Adicionado mais padding à direita */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  position: relative;
+  padding-right: 20px; /* Adicionado espaço extra à direita */
+}
+
+nav ul li:not(:last-child) {
+  border-right: 1px solid #DC7C23; /* Borda direita */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px; /* Adicionado padding horizontal */
+  transition: color 0.3s, border-bottom 0.3s;
+  position: relative; /* Adicionado para o efeito de sublinhado */
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #DC7C23;
+  transition: width 0.3s ease, right 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+nav ul li a:hover {
+  color: #DC7C23;
+}
+
+/* Additional styles to reset body margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+}

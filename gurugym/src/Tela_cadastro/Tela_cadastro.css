@@ -1,0 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.TelaCadastro {
+  background-color: #09032c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #DC7C23;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adicionando sombra externa no container do cadastro */
+}
+
+.form-container input,
+.form-container select {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.407); /* Ajustando o desfoque da sombra interna */
+}
+
+.form-container button {
+  background-color: #000000;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #0e0067;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.back-button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pagination {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold; /* Adicionando negrito */
+  color: #fff; /* Alterando a cor para branco */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adicionando sombra de texto */
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #fff; /* Alterando a cor para branco */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adicionando sombra de texto */
+}
+
+.cadastro-title, .objetivos-title {
+  font-size: 1.8em; /* Tamanho da fonte */
+  margin-bottom: 20px; /* Margem inferior para separação */
+  text-align: center; /* Centralizar o texto */
+  color: #fff; /* Cor do texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+}
+

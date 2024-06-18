@@ -1,0 +1,158 @@
+/* Estilos para Tela_treino */
+
+/* Estilos semelhantes à tela de início */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DC7C23;
+  }
+  
+  .inicio-container {
+    background-color: #DC7C23;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    min-height: 75vh;
+    position: relative;
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-section h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .menu-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .menu-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-column ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .menu-column ul li a:hover {
+    background-color: #001f3f;
+  }
+  
+  .logout-section {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .logout-link {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .logout-link:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: semi-bold;
+    color: #000000;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: lighter;
+    color: #fff;
+    padding: 0 100px; /* Espaçamento interno para separar o texto das bordas */
+  }
+  
+  /* Estilos específicos para os exercícios */
+  .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .exercise {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .exercise-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  

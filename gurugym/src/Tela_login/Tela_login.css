@@ -1,0 +1,73 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-wrapper {
+  background-color: #09032c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #DC7C23;
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px; /* Largura do container igual ao cadastro */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-container input {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.407);
+  width: 350px; /* Ocupa 100% da largura do container pai */
+}
+
+.login-container .login-link {
+  display: inline-block;
+  width: 350px; /* Ocupa 100% da largura do container pai */
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.login-container .login-link:hover {
+  background-color: #0e0067;
+}
+
+.signup-link:hover {
+  color: #000000; /* Cor de fundo quando passar o mouse */
+}
+
+.signup-link {
+  color: white;
+  margin-top: 60px;
+  margin-bottom: -20px;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+}
